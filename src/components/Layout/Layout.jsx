@@ -1,20 +1,16 @@
-import { Outlet } from 'react-router-dom';
-
-import { Header, Main, Navigation, NavigationLink } from './Layout.styled';
+import { NavLink, Outlet } from 'react-router-dom';
 
 function Layout() {
   return (
     <>
-      <Header>
-        <Navigation>
-          <NavigationLink to="/">Home page</NavigationLink>
-          <NavigationLink to="/tweets">Tweets</NavigationLink>
-        </Navigation>
-      </Header>
+      <header>
+        <NavLink to="/"> Home Page</NavLink>
+        <NavLink to="/page"> Page</NavLink>
+      </header>
 
-      <Main>
+      <main>
         <Outlet />
-      </Main>
+      </main>
     </>
   );
 }
