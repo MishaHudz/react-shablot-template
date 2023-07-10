@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-shablot-template/static/css/main.7acaea2f.css",
+    "main.js": "/react-shablot-template/static/js/main.eaea471d.js",
+    "index.html": "/react-shablot-template/index.html",
+    "main.7acaea2f.css.map": "/react-shablot-template/static/css/main.7acaea2f.css.map",
+    "main.eaea471d.js.map": "/react-shablot-template/static/js/main.eaea471d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.eaea471d.js"
+  ]
+}
